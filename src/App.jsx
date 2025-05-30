@@ -1,5 +1,7 @@
+import Home from "./Home";
+
 function App() {
-  return <h1 className="text-center underline">Hello World</h1>;
+  return <Home />;
 }
 
 export default App;
