@@ -1,3 +1,5 @@
+import { chiamakaImg } from "./assets/image/image";
+
 const Home = () => {
   return (
     <section class="pt-12 bg-gradient-to-b from-gray-50 via-white to-gray-50">
@@ -82,11 +84,7 @@ const Home = () => {
           </div>
 
           <div class="self-end lg:col-span-5">
-            <img
-              class="w-full mx-auto"
-              src="https://landingfoliocom.imgix.net/store/collection/clarity-blog/images/hero/1/author.png"
-              alt=""
-            />
+            <img class="w-full mx-auto" src={chiamakaImg} alt="" />
           </div>
         </div>
       </div>
